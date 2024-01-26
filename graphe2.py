@@ -15,7 +15,7 @@ def check_authorization(entered_mac_address, authorized_mac_address):
 def enforce_authorization():
     entered_mac_address = get_mac_address()
     print(f"Entered MAC Address: {entered_mac_address}")
-    authorized_mac_address = "70:1A:B8:16:1B:AC"
+   
     return check_authorization(entered_mac_address, authorized_mac_address)
 
 
